@@ -1,22 +1,13 @@
 //
 //  FeedsViewController.swift
-//  Team_UP
+//  Unicorn-Tour
 //
-//  Created by Ivan Kopiev on 05.06.2021.
+//  Created by Ekaterina Borobaenko on 05.05.2021.
 //
 import UIKit
 
-class FeedsViewController: UIViewController {
-    
-    init() {
-        super.init(nibName: nil, bundle: nil)
-        
-        tabBarItem = UITabBarItem(title: "Туры", image: #imageLiteral(resourceName: "vns"), tag: 0)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+class TourViewController: UIViewController {
+ 
     
     // MARK: - Свойства
     private let cellId = "cell"
@@ -37,9 +28,9 @@ class FeedsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         createUI()
-        feedData.append(Tour(image: "egipt", name: "Sharming In( ex. PR Club Sharm Inn)", description: "До пляжа 30 метров", country: "Египет", numberOfViews: 4, numberOfLikes: 105566, numberOfComments: 342))
-        feedData.append(Tour(image: "turk", name: "Alibaba djan", description: "Все включено(тенисный корт, баскетбольная площадка)", country: "Турция", numberOfViews: 5, numberOfLikes: 99800, numberOfComments: 313))
-        feedData.append(Tour(image: "turk", name: "Alibaba djan", description: "Все включено(тенисный корт, баскетбольная площадка)", country: "Турция", numberOfViews: 5, numberOfLikes: 99800, numberOfComments: 313))
+        feedData.append(Tour(image: "egipt", name: "Sharming In( ex. PR Club Sharm Inn)", description: "До пляжа 30 метров", country: "Египет", stars: 4, price: 105566, numberOfComments: 342))
+        feedData.append(Tour(image: "turk", name: "Alibaba djan", description: "Все включено(тенисный корт, баскетбольная площадка)", country: "Турция", stars: 5, price: 99800, numberOfComments: 313))
+        feedData.append(Tour(image: "turk", name: "Alibaba Bro", description: "Все включено", country: "Турция", stars: 5, price: 88065, numberOfComments: 100))
 
     }
     
@@ -59,7 +50,7 @@ class FeedsViewController: UIViewController {
     }
 }
 // MARK: - Extension DataSource
-extension FeedsViewController: UITableViewDataSource {
+extension TourViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return feedData.count
     }
@@ -79,7 +70,7 @@ extension FeedsViewController: UITableViewDataSource {
     
 }
 // MARK: - Extension Delegate
-extension FeedsViewController: UITableViewDelegate {
+extension TourViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let titleLabel = UILabel(frame:CGRect(x: 0, y: 0, width: 183, height: 40))
         titleLabel.font = .boldSystemFont(ofSize: 22)

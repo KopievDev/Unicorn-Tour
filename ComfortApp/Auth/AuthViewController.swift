@@ -1,8 +1,8 @@
 //
 //  AuthViewController.swift
-//  ComfortApp
+//  Unicorn-Tour
 //
-//  Created by Ivan Kopiev on 22.05.2021.
+//  Created by Ekaterina Borobaenko on 05.05.2021.
 //
 
 import UIKit
@@ -159,7 +159,7 @@ class AuthViewController: UIViewController {
     }
     
     fileprivate func goToApp() {
-        let realtyViewController = FeedsViewController()
+        let realtyViewController = TourViewController()
         let clientViewController = ClientsViewController()
         
         //nav

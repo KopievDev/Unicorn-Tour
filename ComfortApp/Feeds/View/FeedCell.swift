@@ -2,7 +2,7 @@
 //  FeedCell.swift
 //  Team_UP
 //
-//  Created by Ivan Kopiev on 05.06.2021.
+//  Created by Ekaterina Borobaenko on 05.05.2021.
 //
 
 import UIKit
@@ -45,8 +45,8 @@ class FeedCell: UITableViewCell {
         cellView.nameLabel.text = feed.name
         cellView.descriptionLabel.text = feed.description
         cellView.kindOfSport.text = feed.country
-        cellView.viewsLabel.text = "\(feed.numberOfViews)"
-        cellView.likesLabel.text = "\(feed.numberOfLikes)"
+        cellView.viewsLabel.text = "\(feed.stars)"
+        cellView.likesLabel.text = "\(feed.price)"
         cellView.commentsLabel.text = "\(feed.numberOfComments)"
 
     }

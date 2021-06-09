@@ -1,10 +1,9 @@
 //
 //  Firebase.swift
-//  ComfortApp
+//  Unicorn-Tour
 //
-//  Created by Ivan Kopiev on 22.05.2021.
+//  Created by Ekaterina Borobaenko on 05.05.2021.
 //
-
 import Foundation
 
 class Firebase {

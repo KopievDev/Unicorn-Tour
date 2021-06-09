@@ -23,7 +23,7 @@
 		B55DDF1B26595C0D00006D63 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDF1A26595C0C00006D63 /* Firebase.swift */; };
 		B55DDF2326595FE000006D63 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDF2226595FE000006D63 /* Parser.swift */; };
 		B5ECFC922670C19100A4E373 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECFC912670C19000A4E373 /* Extension.swift */; };
-		B5ECFCA62670D64B00A4E373 /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECFCA02670D64B00A4E373 /* FeedsViewController.swift */; };
+		B5ECFCA62670D64B00A4E373 /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECFCA02670D64B00A4E373 /* TourViewController.swift */; };
 		B5ECFCA72670D64B00A4E373 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECFCA22670D64B00A4E373 /* Tour.swift */; };
 		B5ECFCA82670D64B00A4E373 /* FeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECFCA42670D64B00A4E373 /* FeedsView.swift */; };
 		B5ECFCA92670D64B00A4E373 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECFCA52670D64B00A4E373 /* FeedCell.swift */; };
@@ -69,7 +69,7 @@
 		B55DDF1A26595C0C00006D63 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
 		B55DDF2226595FE000006D63 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		B5ECFC912670C19000A4E373 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		B5ECFCA02670D64B00A4E373 /* FeedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
+		B5ECFCA02670D64B00A4E373 /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
 		B5ECFCA22670D64B00A4E373 /* Tour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
 		B5ECFCA42670D64B00A4E373 /* FeedsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsView.swift; sourceTree = "<group>"; };
 		B5ECFCA52670D64B00A4E373 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
@@ -214,7 +214,7 @@
 		B5ECFC9F2670D64B00A4E373 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B5ECFCA02670D64B00A4E373 /* FeedsViewController.swift */,
+				B5ECFCA02670D64B00A4E373 /* TourViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,7 +377,7 @@
 				B55DDEF92659408F00006D63 /* DescriptionViewController.swift in Sources */,
 				B55DDEB22659118700006D63 /* RealtyModel.swift in Sources */,
 				B55DDEFF265945FB00006D63 /* AuthViewController.swift in Sources */,
-				B5ECFCA62670D64B00A4E373 /* FeedsViewController.swift in Sources */,
+				B5ECFCA62670D64B00A4E373 /* TourViewController.swift in Sources */,
 				B5ECFCA92670D64B00A4E373 /* FeedCell.swift in Sources */,
 				B55DDEEC2659342900006D63 /* ClientsModel.swift in Sources */,
 				B5ECFCA82670D64B00A4E373 /* FeedsView.swift in Sources */,

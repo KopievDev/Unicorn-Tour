@@ -2,7 +2,7 @@
 //  FeedsView.swift
 //  Team_UP
 //
-//  Created by Ivan Kopiev on 05.06.2021.
+//  Created by Ekaterina Borobaenko on 05.05.2021.
 //
 
 import UIKit
