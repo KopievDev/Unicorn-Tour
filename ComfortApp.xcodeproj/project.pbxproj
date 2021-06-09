@@ -11,7 +11,7 @@
 		B55DDE7E26590D0100006D63 /* RealtyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE7D26590D0100006D63 /* RealtyViewController.swift */; };
 		B55DDE8326590D0500006D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55DDE8226590D0500006D63 /* Assets.xcassets */; };
 		B55DDE8626590D0500006D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55DDE8426590D0500006D63 /* LaunchScreen.storyboard */; };
-		B55DDE9126590D0500006D63 /* ComfortAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE9026590D0500006D63 /* ComfortAppTests.swift */; };
+		B55DDE9126590D0500006D63 /* UnicornTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE9026590D0500006D63 /* UnicornTour.swift */; };
 		B55DDE9C26590D0500006D63 /* ComfortAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDE9B26590D0500006D63 /* ComfortAppUITests.swift */; };
 		B55DDEAD26590F7600006D63 /* RealtyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDEAC26590F7600006D63 /* RealtyTableViewCell.swift */; };
 		B55DDEB22659118700006D63 /* RealtyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DDEB12659118700006D63 /* RealtyModel.swift */; };
@@ -54,7 +54,7 @@
 		B55DDE8526590D0500006D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B55DDE8726590D0500006D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55DDE8C26590D0500006D63 /* ComfortAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComfortAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B55DDE9026590D0500006D63 /* ComfortAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortAppTests.swift; sourceTree = "<group>"; };
+		B55DDE9026590D0500006D63 /* UnicornTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicornTour.swift; sourceTree = "<group>"; };
 		B55DDE9226590D0500006D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55DDE9726590D0500006D63 /* ComfortAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComfortAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55DDE9B26590D0500006D63 /* ComfortAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortAppUITests.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		B55DDE8F26590D0500006D63 /* ComfortAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				B55DDE9026590D0500006D63 /* ComfortAppTests.swift */,
+				B55DDE9026590D0500006D63 /* UnicornTour.swift */,
 				B55DDE9226590D0500006D63 /* Info.plist */,
 			);
 			path = ComfortAppTests;
@@ -388,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55DDE9126590D0500006D63 /* ComfortAppTests.swift in Sources */,
+				B55DDE9126590D0500006D63 /* UnicornTour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
